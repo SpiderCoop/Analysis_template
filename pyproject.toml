@@ -1,0 +1,22 @@
+[project]
+name = "analisis-varios"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SpiderCoop", email = "david.jimenez.cooper@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "econ-api-bridge>=0.2.0",
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.0",
+    "statsmodels>=0.15.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "pyprojroot>=0.3.0",
+    "ruff>=0.17.5",
+]
