@@ -5,7 +5,6 @@ Date:          2026-09-30
 """
 
 import os
-
 from dotenv import load_dotenv
 
 load_dotenv()
